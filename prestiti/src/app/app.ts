@@ -1,11 +1,9 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Header } from './header/header';
-import { Footer } from './footer/footer';
-import { Home } from './home/home';
+import { SchedaDispositivo } from './scheda-dispositivo/scheda-dispositivo';
 
 @Component({
-  imports: [RouterOutlet, Header, Footer, Home],
+  imports: [RouterOutlet, SchedaDispositivo],
   selector: 'app-root',
   styleUrls: ['./app.css'],
   templateUrl: './app.html',
